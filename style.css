@@ -1,0 +1,136 @@
+
+h1 {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+
+.p1_back {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: chal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+}
+
+#p1_btn {
+    color: white;
+    background-color: black;
+    outline: 0;
+    border: 0;
+    border-radius: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 150%;
+    opacity: 0.8;
+}
+
+
+
+@keyframes chal {
+    0% {
+        background-image: url(images/chalet1.jpg);
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+    50% {
+        background-image: url(images/Chalet2.jpg);
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+    100% {
+        background-image: url(images/chalet1.jpg);
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+.p2_stats {
+    padding: 1rem;
+}
+
+
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sec_img {
+    height: 70vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.follow_up {
+
+}
+
+.title {
+    font-size: 300%;
+    color: white;
+}
+
+.bold {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 4rem;
+}
+
+#intro {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#prem {
+    background: url(images/sale_a_manger.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-position: center;
+}
+
+#deuz {
+    background: url(images/floor_plan.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+#troiz {
+    background: url(images/balc.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+#quat {
+    background: url(images/champagne.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+#cin {
+    background: url(images/emplacement.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
